@@ -1,4 +1,5 @@
-public class ArabicToRomanConverter {
+public class Converter { // название класса должно быть емким и общим,
+    // а из названия методов можно понять что класс может делать
 
     public static String convertArabicToRoman(int arabicNumeral) throws NumberFormatException {
         String result = "";

@@ -27,8 +27,6 @@ public class RomanNumerals {
         }
 
         int arabicNumeral = ArabicNumerals.calculateArabicNumeral(subStrings);
-        String romanNumeral = ArabicToRomanConverter.convertArabicToRoman(arabicNumeral);
-
-        return romanNumeral;
+        return Converter.convertArabicToRoman(arabicNumeral); // было избыточное объяевление переменной, которая ипользуется только в return
     }
 }
